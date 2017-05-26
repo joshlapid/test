@@ -1,0 +1,219 @@
+/*
+
+Index
+1. Navbar
+2. Jumbotron
+
+== HOMEPAGE ==
+3. Section One
+4. Section Two
+5. Section Three
+6. Footer
+
+== CONTENT PAGE ==
+6. Content page
+7. Sidebar
+
+*/
+
+/* Global */
+h2 {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 0px;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    height: 50px;
+
+}
+
+#navbar-logo {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#searchform {
+    display: inline;
+}
+
+#contact-us {
+    font-size: 8pt;
+}
+
+#searchform > div {
+    display: inline;
+    margin-left: 10px;
+}
+.navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: 0px solid black;
+    border-radius: 0px;
+}
+
+.navbar-brand {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+#navbar > .nav > .menu-item > a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    height: 500px;
+    margin-bottom: 0px;
+    background-position: center !important;
+    background-size: cover !important;
+}
+
+/* Section One */
+
+/* Section Two */
+#section-two {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+#section-two > img {
+    height: 200px;
+}
+
+.section-two-button {
+    max-width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 14pt;
+    padding: 10px 0px;
+}
+
+/* Section Three */
+#section-three-heading {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#register-now-button {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 50px;
+    color: white;
+    font-size: 12pt;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+footer > .container > .row {
+    margin: 15px 0px;
+}
+
+#footer-logo-row {
+    margin: 40px 0px;
+}
+
+#footer-logo {
+    color: rgba(0, 0, 0, 0.9);
+    background-color: white;
+    border-radius: 30px;
+    padding: 20px 10px;
+}
+
+#footer-menu-items {
+    color: black;
+}
+
+#footer-menu-items > a {
+    margin: 10px 15px;
+    color: white;
+}
+
+.social-media-icons {
+    padding-left: 0px;
+    list-style: none;
+}
+
+.social-media-icons > li {
+    display: inline;
+    margin: 2px;
+}
+
+.social-media-icons > li > a > button {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    font-size: 7pt;
+    width: 35px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+
+#footer-policies {
+    color: black;
+}
+
+#footer-policies > a {
+    margin: 10px 15px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#copyright {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+/* CONTENT PAGE */
+#breadcrumbs {
+    margin-top: 20px;
+}
+
+.thumbnail-img {
+    margin-left: 10px;
+    float: right;
+}
+
+#register-section {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+#content-container {
+    padding: 40px 0px;
+}
+
+#menu-sub-navigation {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 20px;
+}
+
+#menu-sub-navigation > li {
+    margin-bottom: 10px;
+}
+
+#menu-sub-navigation > li > a {
+    color: rgba(0, 0, 0, 0.6);
+}
